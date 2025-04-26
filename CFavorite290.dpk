@@ -1,0 +1,44 @@
+package CFavorite290;
+
+{$R *.res}
+{$R *.dres}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  designide,
+  dbrtl;
+
+contains
+  WP.Favorite.Utils in 'WP.Favorite.Utils.pas',
+  WP.Favorite.Creator in 'WP.Favorite.Creator.pas',
+  WP.Favorite.View in 'WP.Favorite.View.pas' {frmMain: TFrame},
+  WP.Favorite.SplashIcon.Registration in 'WP.Favorite.SplashIcon.Registration.pas',
+  WP.Favorite.New in 'WP.Favorite.New.pas' {frmNewFavorite},
+  WP.Favorite.Setting in 'WP.Favorite.Setting.pas';
+
+end.

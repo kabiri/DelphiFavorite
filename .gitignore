@@ -1,0 +1,49 @@
+__*/
+Win32/
+Install/
+Picture/
+
+# Delphi binary files
+*.exe
+*.dll
+*.bpl
+*.dcu
+*.dcp
+*.bpi
+*.ocx
+
+# Delphi temporary files
+*.~*
+*.dsk
+*.identcache
+*.local
+*.cfg
+*.hpp
+*.obj
+*.map
+*.tds
+*.drc
+*.bak
+*.tmp
+*.dtu
+*.stat
+*.smap
+*.res
+*.dres
+
+# IDE and project-specific files
+*.vrc
+*.groupproj
+*.tvsconfig
+*.dproj.local
+*.ipch
+*.dbproj.local
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.log
+
+# System files
+Thumbs.db
+.DS_Store
