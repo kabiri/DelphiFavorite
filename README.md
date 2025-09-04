@@ -4,6 +4,9 @@ Favorite Management Tool for Delphi 12
 
 This useful tool is designed for Delphi 12 IDE and adds the ability to manage Favorite Lists directly within the development environment. Developers can use this extension to create multiple lists and organize related projects or files based on their personal preferences or importance. This feature allows users to easily arrange projects according to their own priorities.
 
+## Website & support
+https://cevahirsoft.com/en/products/cevahir-favorites-plugin-for-delphi-ide
+
 ## Setup
 Manul :
 1. Clone the repository.
